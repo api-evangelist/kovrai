@@ -1,0 +1,37 @@
+# Kovr.ai
+
+> Security and compliance automation company profiled in the API Evangelist network. Its verified
+> public engineering presence is the GitHub organization kovr-ai, which publishes an open-source
+> multi-framework compliance checker for AWS environments. No public API, developer portal, or
+> machine-readable API specification has been located for this company.
+
+## Company
+
+- [Website](https://kovr.ai): Corporate website. Served behind a SiteGround bot-protection
+  interstitial that blocks automated retrieval.
+- [GitHub organization](https://github.com/kovr-ai): kovr.ai, created 2024-10-04, 3 public repositories.
+
+## Open source
+
+- [kovr-aws-nist-compliance](https://github.com/kovr-ai/kovr-aws-nist-compliance): Python application
+  that validates AWS environments for compliance with NIST 800-53 Rev 5 and NIST 800-171 Rev 2,
+  mapping findings across the CIS AWS Foundations Benchmark, MITRE ATT&CK, OWASP Cloud Security, the
+  AWS Well-Architected Framework, the NIST Cybersecurity Framework, the CSA Cloud Controls Matrix,
+  the SANS Critical Security Controls, and NIST SP 800-207 Zero Trust Architecture. Roughly 160
+  checks across 50+ AWS services.
+- [kovr-scripts](https://github.com/kovr-ai/kovr-scripts): Shell scripts.
+- [x-spreadsheet](https://github.com/kovr-ai/x-spreadsheet): Fork of myliang/x-spreadsheet.
+
+## API Evangelist artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/kovrai/refs/heads/main/apis.yml): APIs.json profile for this company.
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/kovrai/refs/heads/main/security/kovrai-domain-security.yml): Probed TLS/HSTS/DNSSEC/CAA/SPF/DMARC posture.
+- [Well-known probe](https://raw.githubusercontent.com/api-evangelist/kovrai/refs/heads/main/well-known/kovrai-well-known.yml): Result of probing the /.well-known/ discovery surface.
+
+## Notes
+
+- No OpenAPI, AsyncAPI, GraphQL, or Protobuf definition found; artifacts that derive from a
+  specification (overlays, error catalog, data model, agent skills, MCP tools, OAuth scopes,
+  authentication profile) are therefore not present.
+- No first-party client libraries found on npm, PyPI, or crates.io.
+- No vulnerability disclosure program or trust center detected by probe.
