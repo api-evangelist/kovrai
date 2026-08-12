@@ -44,6 +44,8 @@ tags:
 - AWS
 apis: []
 common:
+- type: IssueTracker
+  url: https://github.com/kovr-ai/kovr-aws-nist-compliance/issues
 - type: DomainSecurity
   url: security/kovrai-domain-security.yml
 - type: LLMsTxt
