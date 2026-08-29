@@ -11,6 +11,17 @@ description: Kovr.ai is a security and compliance automation company surfaced th
   specification has been located for this company; the corporate website is served behind a
   bot-protection interstitial that blocks automated retrieval, so link properties beyond the
   homepage and the GitHub organization remain unverified.
+deliveryModel:
+  model: unknown
+  open_source: unknown
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - repository-unlicensed
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
